@@ -1,0 +1,54 @@
+.slider {
+  text-align: center;
+  p {
+    font: {
+      family: tahoma arial;
+      weight: bold;
+      size: 20px;
+      style: italic;
+    }
+    text-align: center;
+    width: 80%;
+    margin: 30px auto;
+    color: #5e5e5e;
+  }
+
+  img {
+    max-width: 100%;
+  }
+  ul {
+    text-align: center;
+    margin: 15px;
+
+    li {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: $greycolor;
+      border-radius: 50%;
+      &:hover {
+        background-color: grey;
+      }
+    }
+  }
+}
+.serices {
+  h2 {
+    font: {
+      weight: 400;
+      size: 20px;
+    }
+    text-align: center;
+    text-transform: uppercase;
+    color: $colorred;
+    margin: 30px;
+    &:after {
+      content: "";
+      display: block;
+      background: chocolate;
+      width: 80px;
+      height: 4px;
+      margin: 8px auto;
+    }
+  }
+}

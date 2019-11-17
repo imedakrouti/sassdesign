@@ -1,0 +1,45 @@
+.header {
+  padding: 20px 0;
+  border-bottom: 1px solid $greycolor;
+  // overflow: hidden;
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    //width: 30%;
+    //float: $floatleft;
+    h1 {
+      text-transform: capitalize;
+      font-weight: 700;
+      //margin-top: 4px;
+    }
+  }
+  .navbar {
+    background: $colorred;
+    border-radius: 15px;
+    display: flex;
+    //float: $floatleft;
+    //width: 70%;
+
+    li {
+      // float: $floatleft;
+      // text-align: center;
+      padding: 15px 30px;
+
+      a {
+        font-size: 18px;
+        // display: block;
+        margin: 0 10px;
+        padding-bottom: 4px;
+        text-decoration: none;
+        color: #fff;
+        &:hover {
+          border-bottom: 1px solid $greycolor;
+          color: $greycolor;
+        }
+      }
+    }
+  }
+}
